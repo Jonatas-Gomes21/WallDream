@@ -1,0 +1,77 @@
+@import '_variables.scss';
+@import './mixins';
+@import './container';
+
+.title-container{
+    width: 100%;
+    margin: 100px 0 0 0;
+
+    @include respond-to(md) {
+        max-width: 800px;
+    } 
+}
+
+.subtitle-container{
+    @include respond-to(md) {
+        max-width: 750px;
+    } 
+}
+
+.search-container{
+    width: 100%;
+    @include respond-to(md) {
+        max-width: 750px;
+    }
+}
+
+.search-container a{
+    color: $gree;
+}
+
+.search-container a:hover{
+    color: $hovergree;
+}
+
+.form-control{
+    background-color: $gray;
+}
+
+.input-group-text{
+    background-color: $gree;
+}
+
+.input-group-text:hover{
+    background-color: $hovergree;
+}
+
+.secssion-container{
+    width: 100%;
+    @include respond-to(md) {
+        max-width: 1000px;
+    }
+}
+
+.container-description{
+    background-color: $gree;
+    @include respond-to(sm) {
+        max-width: 250px;
+    }
+}
+
+.container-description img:hover{
+    color: $hoversilver;
+    transition: ease in;
+}
+
+.container-text{
+    @include respond-to(sm) {
+        max-width: 200px;
+    }  
+}
+.container-text span{
+    font-size: 12px;
+}
+    
+.container-text p{
+    font-size: 14px;
+}

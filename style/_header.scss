@@ -1,0 +1,15 @@
+@import 'variables.scss';
+
+.navbar{
+    background-color: $background;
+}
+
+.nav-link{
+    color: $primarytext;
+}
+
+.nav-link:hover{
+    color: $hoversilver;
+    transition: ease-in 0.3s;
+}
+

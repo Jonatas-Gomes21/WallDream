@@ -1,0 +1,36 @@
+//Colors
+$gree:#4EB577;
+$lightgree:#2E8B57;
+$darkgray: #333333;
+$silver: #D3D3D3;
+$white: #FFFFFF;
+$gray: #F5F5F5;
+$gray2: #808080;
+$grayback: #E8E8E8;
+$dimGray: #696969;
+
+
+
+
+
+//Definition
+$background: $gree;
+$primarytext: $white;
+$secundarytext: $darkgray;
+$hoversilver: $silver; 
+$hovergree: $lightgree;
+$graybg: $gray;
+$graybtn: $grayback;
+$hover: $silver;
+
+
+//container
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px
+);
+
+
